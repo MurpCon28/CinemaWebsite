@@ -1,0 +1,667 @@
+.red {
+    background-color: red;
+}
+
+body {
+    background-color: #ffebee;
+}
+
+.navBackground {
+    background-color: #760000;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    background-color: #c62828;
+}
+
+.logo {
+    margin-right: 0;
+}
+
+.logoFooter {
+    padding-top: 21px;
+    padding-bottom: 56px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.topGap {
+    padding-bottom: 83px;
+}
+
+.smallGap {
+    padding-bottom: 43px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    background-color: #c62828;
+}
+
+.my-card {
+    background: #c62828;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.my-card-body {
+    height: auto;
+    padding-bottom: 1px;
+}
+
+.cardTitles {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.cardInfo {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.bgTimeCard {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 68px;
+    height: 42px;
+    background-color: #db6a6a;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.timeCard {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 68px;
+    height: 42px;
+    background-color: #db6a6a;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.bgBookButton {
+    width: 120px;
+    height: 46px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #7f0f0f;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.bgBookButton:hover {
+    background-color: #4b0000;
+}
+
+.bookButton {
+    width: 120px;
+    height: 44px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #7f0f0f;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.bookButton:hover {
+    background-color: #4b0000;
+}
+
+.addMovieButton {
+    width: 120px;
+    height: 44px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #7f0f0f;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.addMovieButton:hover {
+    background-color: #4b0000;
+}
+
+.cardText {
+    margin-left: 5px;
+}
+
+.addIconColour {
+    color: white;
+    font-size: 16px;
+}
+
+.expandButton {
+    width: 95px;
+    height: 44px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #7f0f0f;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.expandButton:hover {
+    background-color: #4b0000;
+}
+
+.editButton {
+    width: 65px;
+    height: 44px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #7f0f0f;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.editButton:hover {
+    background-color: #4b0000;
+}
+
+.showLessButton {
+    width: 95px;
+    height: 44px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: #7f0f0f;
+}
+
+.showLessButton:hover {
+    background-color: #db6a6a;
+    color: white;
+}
+
+.deleteButton {
+    width: 80px;
+    height: 44px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: #7f0f0f;
+}
+
+.deleteButton:hover {
+    background-color: #db6a6a;
+    color: white;
+}
+
+.cancelButton {
+    width: 80px;
+    height: 34px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: #7f0f0f;
+}
+
+.cancelButton:hover {
+    background-color: #db6a6a;
+    color: white;
+}
+
+.vCardText {
+    margin-left: -15px;
+    margin-top: 20px;
+}
+
+.my-v-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.vExpandButton {
+    width: 95px;
+    height: 44px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #7f0f0f;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.vExpandButton:hover {
+    background-color: #4b0000;
+}
+
+.vShowLessButton {
+    width: 95px;
+    height: 44px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    border-color: #7f0f0f;
+    display: inline-block;
+    font-weight: 500;
+    color: #7f0f0f;
+}
+
+.vShowLessButton:hover {
+    background-color: #db6a6a;
+    color: white;
+}
+
+.footerBackground {
+    background-color: #760000;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.footerDarkerBackground {
+    background-color: #4b0000;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.footerTitle {
+    color: white;
+    padding-top: 104px;
+}
+
+.footerDes {
+    color: white;
+    padding-bottom: 35px;
+}
+
+.facebookIcon,
+.youtubeIcon,
+.twitterIcon {
+    font-size: 23px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.linkColour {
+    color: white;
+}
+
+.linkColour:hover,
+.footerDesLink:hover {
+    color: #db6a6a;
+    text-decoration: underline;
+}
+
+.underlineHeadings {
+    font-weight: 500;
+    font-size: 32px;
+    color: #760000;
+}
+
+.filmName {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.formHeadings {
+    font-weight: 500;
+    font-size: 20px;
+    color: #760000;
+}
+
+.helpText {
+    font-weight: 400;
+    font-size: 14px;
+    color: #760000;
+}
+
+.inputBox,
+.CVVBox,
+.inputBoxAddMovie,
+.inputBoxMovieDescription {
+    width: 290px;
+    height: 36px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    display: inline-block;
+}
+
+.loginButton {
+    width: 65px;
+    height: 34px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #7f0f0f;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.loginButton:hover {
+    background-color: #4b0000;
+}
+
+.createUserButton {
+    width: 107px;
+    height: 34px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: #7f0f0f;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+}
+
+.createUserButton:hover {
+    background-color: #4b0000;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #4b0000;
+    background-color: #4b0000;
+}
+
+.custom-radio{
+    margin-left:25px;
+}
+
+.bookingHeadings, .whiteBookingHeadings {
+    font-size: 22px;
+    font-weight: 400;
+    color: #760000;
+}
+
+.whiteBookingHeadings {
+    color: white;
+    padding-top:20px;
+    margin-left:25px;
+}
+
+.bookingInfo {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.screeningBackground {
+    background-color: #c62828;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+}
+
+.screen {
+    width: 732px;
+    height: 36px;
+    margin-top: 15px;
+    margin-bottom: 46px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7f0f0f;
+    background-color: white;
+    border: none;
+    display: inline-block;
+}
+
+.seatRow {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.seats {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: #7f0f0f;
+}
+
+.seats:hover {
+    background-color: #db6a6a;
+    color: white;
+}
+
+.bookingHeadingsCards {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.paymentInfoHeadingsCards {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.paymentHeadingsCards {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.seatingHeadingsCards {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.ticketInfo {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dropdown,
+.dropdownSeats,
+.dropdownPayment {
+    width: 95px;
+    height: 36px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    display: inline-block;
+}
+
+.dropdownSeats,
+.month {
+    width: 120px;
+}
+
+.dropdownPayment {
+    width: 150px;
+}
+
+.CVVBox {
+    width: 90px;
+}
+
+.input-group-text {
+    height: 36px;
+}
+
+.menuIcon {
+    background-color: transparent;
+}
+
+.menuIcon:hover {
+    background-color: #c62828;
+}
+
+.custom-file-label {
+    margin-left: 14px;
+    padding-bottom: 12px;
+}
+
+.inputBoxAddMovie,
+.inputBoxMovieDescription {
+    width: 500px;
+}
+
+.inputBoxMovieDescription {
+    height: 300px;
+    width: 1050px;
+}
+
+.inputBoxAddMovieTimes {
+    height: 300px;
+    width: 1050px;
+}
+
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+    display: none;
+}
+
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+    display: none;
+}
+
+.formBorder {
+    border-style: solid;
+    border-width: 2px;
+    padding:15px;
+    color:#760000;
+}

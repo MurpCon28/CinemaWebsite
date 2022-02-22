@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!--300-light, 400-regular, 500-medium, 700-bold-->
+
+    <title>4K Cinema</title>
+</head>
+
+<body>
+    <div class="container-fluid navBackground">
+        <nav class="navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li><img class="logo" src="images/Logo.png"></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="films.html">FILMS</a></li>
+                    <li><a class="active" href="login.html">LOGIN/JOIN</a></li>
+                    <li><a href="admin.html">ADMIN LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container topGap">
+    </div>
+    <!--    gap between the navbar and the first large card-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-5">
+                <h3 class="underlineHeadings">LOGIN IN</h3>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7">
+                <h3 class="underlineHeadings">CREATE USER</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="formBorder">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <form action="home.html" class="was-validated">
+                        <div class="form-group">
+                            <label class="formHeadings" for="contactEmail">EMAIL:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input class="inputBox" type="email" class="form-control" id="contactEmail" placeholder="Enter email" name="contactEmail" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="formHeadings" for="pwd">PASSWORD:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input class="inputBox" type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <a href="home.html"><button type="submit" class="loginButton">LOGIN</button></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--end of login form-->
+
+            <div class="col-lg-1 col-md-1 col-sm-1">
+            </div>
+            <div class="formBorder">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <form action="home.html" role="form" data-toggle="validator" class="was-validated">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label class="formHeadings" for="fname">NAME:</label>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <input class="inputBox" type="text" class="form-control" id="fname" placeholder="Enter first name" minlength="5" maxlength="40" name="fname" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please enter your first and last name.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label class="formHeadings" for="contactEmail">EMAIL:</label>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <input class="inputBox" type="email" class="form-control" id="contactEmail" placeholder="Enter email" name="contactEmail" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please enter your email.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label class="formHeadings" for="phone">PHONE NUMBER:</label>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <input class="inputBox" type="tel" class="form-control" id="phone" name="phone" placeholder="087543884526" pattern="^\+?\d{7,13}" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please enter your phone number.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label class="formHeadings" for="date">DATE OF BIRTH:</label>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <input class="inputBox" type="date" class="form-control" id="date" name="date" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please enter you date of birth.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label class="formHeadings" for="inputPassword">PASSWORD:</label>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <input class="inputBox" type="password" data-minlength="8" class="form-control" id="inputPassword" minlength="8" placeholder="Enter password" name="password" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please enter a password.</div>
+                                        <div class="help-block helpText">Minimum of 8 characters</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <label class="formHeadings" for="inputPasswordConfirm">CONFIRM PASSWORD:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input class="inputBox" type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" placeholder="Confirm password" data-match-error="Passwords do not match!" name="confirmPassword" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="help-block with-errors"></div>
+                                    <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <a href="home.html"><button type="submit" class="createUserButton">CREATE USER</button></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+                        </div>
+        </div>
+    </div>
+
+    <div class="container topGap">
+    </div>
+    <div class="container-fluid footerBackground">
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-3 col-md-2 col-sm-0">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">Contact Us</h4>
+                    <p class="footerDes"><span class="footerDesLink">Get in touch</span><br><span class="footerDesLink"> FAQ's</span><br> <a class="linkColour" href="https://www.facebook.com"><i class="fa fa-facebook facebookIcon"></i></a> <a class="linkColour" href="https://twitter.com"><i class="fa fa-twitter twitterIcon"></i></a> <a class="linkColour" href="https://www.youtube.com"><i class="fa fa-youtube-play youtubeIcon"></i></a></p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">About 4K Cinema</h4>
+                    <p class="footerDes"><span class="footerDesLink">About Us</span><br><span class="footerDesLink">4K Experience</span><br> <span class="footerDesLink">Kids Party</span><br> <span class="footerDesLink">Gift Cards</span><br> <span class="footerDesLink">Competitions</span><br></p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">Legal</h4>
+                    <p class="footerDes"><span class="footerDesLink">Terms and Conditions</span><br><span class="footerDesLink">Privacy Policy</span><br> <span class="footerDesLink">Accessibility</span><br></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="container-fluid footerDarkerBackground">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-5">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img class="logoFooter" src="images/Logo.png">
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="javascript.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

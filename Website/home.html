@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!--300-light, 400-regular, 500-medium, 700-bold-->
+
+    <title>4K Cinema</title>
+</head>
+
+<body>
+    <div class="container-fluid navBackground">
+        <nav class="navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li><img class="logo" src="images/Logo.png"></li>
+                    <li><a class="active" href="home.html">HOME</a></li>
+                    <li><a href="films.html">FILMS</a></li>
+                    <li><a href="login.html">LOGIN/JOIN</a></li>
+                    <li><a href="admin.html">ADMIN LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container topGap">
+    </div>
+    <!--    gap between the navbar and the first large card-->
+    <div class="container">
+        <div class="my-card">
+            <!--Opening Card-->
+            <!--opening div to start the slideshow gallergy-->
+            <div id="carouselExampleControls" class="my-card-head carousel slide" data-ride="carousel">
+                <!-- Card head-->
+                <div class="carousel-inner">
+                    <!--carousel-innner div-->
+                    <div class="carousel-item active">
+                        <!--carousel-item div-->
+                        <img class="card-img-top" src="images/StarWarsPoster-LargePoster.png">
+                    </div>
+                    <!--closing carousel-item div-->
+                    <div class="carousel-item">
+                        <!--carousel-item div-->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <!--embeded div-->
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8Qn_spdM5Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <!--iframe code for youtube video of trailer-->
+                        </div>
+                        <!--closes embeded div-->
+                    </div>
+                    <!--closes carousel-item div-->
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="my-card-body">
+                    <!--card body-->
+                    <div class="row cardText">
+                        <!--div class of row-->
+                        <div class="col-lg-7 col-md-9 col-sm-12">
+                            <!-- div class of col-7-->
+                            <p class="cardInfo"><span class="cardTitles">Title :<br> </span>Star Wars Rise Of Skywalker</p>
+                            <p class="cardInfo"><span class="cardTitles">Description : <br> </span>The surviving Resistance faces the First<br>Order once more in the final chapter of the Skywalker saga.</p>
+                            <p class="cardInfo"><span class="cardTitles">Times : </span><button type="button" class="bgTimeCard">13:15</button> <button type="button" class="bgTimeCard">13:45</button> <button type="button" class="bgTimeCard">14:25</button> <button type="button" class="bgTimeCard">16:05</button> <button type="button" class="bgTimeCard">17:20</button> <button type="button" class="bgTimeCard">20:00</button> <button type="button" class="bgTimeCard">21:35</button></p>
+                            <!--buttons to show the times the film is playing-->
+                        </div>
+                        <!--closes the div col-7-->
+                        <div class="col-lg-5 col-md-7 col-sm-12">
+                            <!-- div class of col-5-->
+                            <p class="cardInfo"><span class="cardTitles">Runtime : <br> </span>2 hours and 10 minutes</p>
+                            <p class="cardInfo"><span class="cardTitles">Rating : <br> </span>12A</p>
+                            <div class="row">
+                                <div class="col-lg-7 col-md-9 col-sm-7">
+                                </div>
+                                <div class="col-lg-3 col-md-5 col-sm-3">
+                                    <a href="films.html"><button type="button" class="bgBookButton">BOOK TICKET</button></a>
+                                </div>
+                                <div class="col-lg-2 col-md-5 col-sm-1">
+                                </div>
+                            </div>
+                            <!--button link that leads to the booking page-->
+                        </div>
+                        <!--closes the div col-5-->
+                    </div>
+                    <!--closes the row div-->
+                </div>
+                <!--closes card body-->
+            </div>
+            <!--closes card head-->
+        </div>
+        <!--closes card-->
+    </div>
+    <!--closes container the card is in-->
+    <div class="container topGap">
+    </div>
+    <!--gap between carousle and first cards-->
+
+    <div class="container">
+        <!--opening of container-->
+        <div class="row">
+            <!--opening of row-->
+            <div class="col-lg-6 col-md-5 col-sm-12">
+                <!--opening of col-5-->
+                <div class="my-card">
+                    <!--Opening Card-->
+                    <div class="my-card-head">
+                        <!--card head-->
+                        <img class="card-img-top" src="images/DoctorSleepPoster.jpg">
+                        <div class="my-card-body cardText">
+                            <!--card body-->
+                            <p class="cardInfo"><span class="cardTitles">Title : </span>Doctor Sleep</p>
+                            <p class="cardInfo"><span class="cardTitles">Description : </span>Years following the event of "The Shinning", a now-adult Dan Torrence meets a young girl<br> with similar powers as his and tries to protect her from<br> a cult known as The True Knot who prey on children with powers to remain immortal.</p>
+                            <div class="row">
+                                <!--opening of row-->
+                                <div class="col-lg-8 col-md-8 col-sm-8">
+                                    <!--opening of col-8-->
+                                </div>
+                                <!--closing of col-8-->
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <!--opening of col-3-->
+                                    <button type="button" class="expandButton infoExpandButton collapsed" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><span class="if-collapsed">EXPAND<i class="material-icons addIconColour">add</i></span> <span class="if-not-collapsed">SHOW LESS</span></button>
+                                    <!--expand button that shows more info about the movie-->
+                                </div>
+                                <!--closing of col-3-->
+                            </div>
+                            <!--closing of row-->
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <!--opening of div that is shown when the expand button is clicked-->
+                                <p class="cardInfo"><span class="cardTitles">Runtime : </span>2 hours 30 minutes</p>
+                                <p class="cardInfo"><span class="cardTitles">Rating : </span>16</p>
+                                <p class="cardInfo"><span class="cardTitles">Times : </span><button type="button" class="timeCard">15:05</button> <button type="button" class="timeCard">16:45</button> <button type="button" class="timeCard">15:30</button> <button type="button" class="timeCard">18:05</button> <button type="button" class="timeCard">19:45</button> <button type="button" class="timeCard">21:00</button></p>
+                                <!--buttons with the movies times-->
+                                <div class="row">
+                                    <!--opening of row-->
+                                    <div class="col-lg-7 col-md-7 col-sm-7">
+                                        <!--opening of col-5-->
+                                    </div>
+                                    <!--closing of col-5-->
+                                    <!--opening of col-7-->
+                                    <div class="col-lg-5 col-md-5 col-sm-5"><a href="films.html"><button type="button" class="bookButton">BOOK TICKET</button></a>
+                                        <!--booking button and show less button-->
+                                    </div>
+                                    <!--closing of col-7-->
+                                </div>
+                                <!--closing of row-->
+                            </div>
+                            <!--clsoing of the expanded info-->
+                        </div>
+                        <!--closing of card-body-->
+                    </div>
+                    <!--closing of card-head-->
+                </div>
+                <!--closing of card-->
+            </div>
+            <!--closing of col-5-->
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="my-card">
+                    <!--Opening Card-->
+                    <div class="my-card-head">
+                        <!--card head-->
+                        <img class="card-img-top" src="images/IrishmanPoster.jpg">
+                        <div class="my-card-body cardText">
+                            <!--card body-->
+                            <p class="cardInfo"><span class="cardTitles">Title : </span>The Irishman</p>
+                            <p class="cardInfo"><span class="cardTitles">Description : </span>Frank Sheeran maintains ties with the Bufalino crime family and claims to have killed fellow Teamster Jimmy Hoffa.</p>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-8 col-sm-8">
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-3">
+                                    <button type="button" class="expandButton infoExpandButton collapsed" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"><span class="if-collapsed">EXPAND<i class="material-icons addIconColour">add</i></span> <span class="if-not-collapsed">SHOW LESS</span></button>
+                                </div>
+                            </div>
+                            <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                <p class="cardInfo"><span class="cardTitles">Runtime : </span>3 hours 29 minutes</p>
+                                <p class="cardInfo"><span class="cardTitles">Rating : </span>16</p>
+                                <p class="cardInfo"><span class="cardTitles">Times : </span><button type="button" class="timeCard">16:55</button> <button type="button" class="timeCard">17:35</button> <button type="button" class="timeCard">18:15</button> <button type="button" class="timeCard">19:05</button> <button type="button" class="timeCard">19:55</button> <button type="button" class="timeCard">20:20</button> <button type="button" class="timeCard">21:40</button></p>
+                                <div class="row">
+                                    <div class="col-lg-7 col-md-7 col-sm-7">
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5">
+                                        <a href="films.html"><button type="button" class="bookButton">BOOK TICKET</button></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container smallGap">
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <!--opening of col-6-->
+                <div class="my-card">
+                    <!--Opening Card-->
+                    <div class="my-card-head">
+                        <!--card head-->
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <img class="card-img" src="images/JokerPoster.jpg">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="my-card-body vCardText">
+                                    <!--card body-->
+                                    <p class="cardInfo"><span class="cardTitles">Title : </span>Joker</p>
+                                    <p class="cardInfo"><span class="cardTitles">Description : </span>An original<br> standalone origin story <br>of the iconic villain not seen<br> before on the big screen, it's a <br> gritty character study of Arthur<br> Fleck, a man disregarded by<br> society, and a broader<br> cautionary tale.</p>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <button type="button" class="vExpandButton infoVExpandButton collapsed" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"><span class="if-collapsed">EXPAND<i class="material-icons addIconColour">add</i></span> <span class="if-not-collapsed">SHOW LESS</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                        <p class="cardInfo"><span class="cardTitles">Runtime : </span>2 hours 2 minutes</p>
+                                        <p class="cardInfo"><span class="cardTitles">Rating : </span>16</p>
+                                        <p class="cardInfo"><span class="cardTitles">Times : </span><button type="button" class="timeCard">13:10</button> <button type="button" class="timeCard">13:55</button> <button type="button" class="timeCard">15:20</button> <button type="button" class="timeCard">16:15</button> <button type="button" class="timeCard">17:55</button> <button type="button" class="timeCard">19:15</button> <button type="button" class="timeCard">20:00</button></p>
+                                        <div class="row">
+                                            <div class="col-lg-5 col-md-5 col-sm-5">
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                                <a href="films.html"><button type="button" class="bookButton">BOOK TICKET</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="my-card">
+                    <!--Opening Card-->
+                    <div class="my-card-head">
+                        <!--card head-->
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <img class="card-img" src="images/21-bridges-poster.jpg">
+                            </div>
+                            <div class="col-6">
+                                <div class="my-card-body vCardText">
+                                    <!--card body-->
+                                    <p class="cardInfo"><span class="cardTitles">Title : </span>21 Bridges</p>
+                                    <p class="cardInfo"><span class="cardTitles">Description : </span>An<br> embattled NYPD detective is<br> thrust into a citywide manhunt<br> for a pair of cop killers after uncovering a massive and unexpected conspiracy.</p>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-3">
+                                            <button type="button" class="vExpandButton infoVExpandButton collapsed" data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"><span class="if-collapsed">EXPAND<i class="material-icons addIconColour">add</i></span> <span class="if-not-collapsed">SHOW LESS</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                        <p class="cardInfo"><span class="cardTitles">Runtime : </span>1 hours 39 minutes</p>
+                                        <p class="cardInfo"><span class="cardTitles">Rating : </span>15A</p>
+                                        <p class="cardInfo"><span class="cardTitles">Times : </span><button type="button" class="timeCard">13:15</button> <button type="button" class="timeCard">13:55</button> <button type="button" class="timeCard">14:20</button> <button type="button" class="timeCard">15:15</button> <button type="button" class="timeCard">16:05</button> <button type="button" class="timeCard">17:15</button> <button type="button" class="timeCard">20:00</button> <button type="button" class="timeCard">21:15</button></p>
+                                        <div class="row">
+                                            <div class="col-lg-5 col-md-5 col-sm-5">
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                                <a href="films.html"><button type="button" class="bookButton">BOOK TICKET</button></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container topGap">
+    </div>
+    <div class="container-fluid footerBackground">
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-3 col-md-2 col-sm-0">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">Contact Us</h4>
+                    <p class="footerDes"><span class="footerDesLink">Get in touch</span><br><span class="footerDesLink"> FAQ's</span><br> <a class="linkColour" href="https://www.facebook.com"><i class="fa fa-facebook facebookIcon"></i></a> <a class="linkColour" href="https://twitter.com"><i class="fa fa-twitter twitterIcon"></i></a> <a class="linkColour" href="https://www.youtube.com"><i class="fa fa-youtube-play youtubeIcon"></i></a></p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">About 4K Cinema</h4>
+                    <p class="footerDes"><span class="footerDesLink">About Us</span><br><span class="footerDesLink">4K Experience</span><br> <span class="footerDesLink">Kids Party</span><br> <span class="footerDesLink">Gift Cards</span><br> <span class="footerDesLink">Competitions</span><br></p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">Legal</h4>
+                    <p class="footerDes"><span class="footerDesLink">Terms and Conditions</span><br><span class="footerDesLink">Privacy Policy</span><br> <span class="footerDesLink">Accessibility</span><br></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="container-fluid footerDarkerBackground">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-5">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img class="logoFooter" src="images/Logo.png">
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="javascript.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

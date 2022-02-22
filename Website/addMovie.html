@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <!--300-light, 400-regular, 500-medium, 700-bold-->
+
+    <title>4K Cinema</title>
+</head>
+
+<body>
+    <div class="container-fluid navBackground">
+        <nav class="navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler menuIcon" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li><img class="logo" src="images/Logo.png"></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="films.html">FILMS</a></li>
+                    <li><a href="login.html">LOGIN/JOIN</a></li>
+                    <li><a class="active" href="admin.html">ADMIN LOGIN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container topGap">
+    </div>
+    <!--    gap between the navbar and the first large card-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h3 class="underlineHeadings">ADD MOVIE</h3>
+            </div>
+        </div>
+        <div class="formBorder">
+            <form action="admin.html" role="form" data-toggle="validator" class="was-validated">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label class="formHeadings" for="title">Movie Title:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input class="inputBoxAddMovie" type="text" class="form-control" id="title" placeholder="Enter Movies Title" minlength="1" malength="50" name="title" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please enter movie's title.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label class="formHeadings" for="file">POSTER IMAGE:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input type="file" class="form-control custom-file-input" id="validatedCustomFile" name="myFile" required>
+                                    <label class="inputBoxAddMovie custom-file-label" for="validatedCustomFile">Choose movie poster...</label>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please import a movie poster.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="form-group">
+                            <label class="formHeadings" for="description">DESCRIPTION:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <textarea class="inputBoxMovieDescription" type="text" class="form-control" id="description" placeholder="Enter movies description" minlength="50" maxlength="350" name="description" required></textarea>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please enter movie's description.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label class="formHeadings" for="runtime">RUNTIME:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input class="inputBoxAddMovie" type="text" class="form-control" id="runtime" placeholder="Enter movie's runtime" name="runtime" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please enter movies runtime.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label class="formHeadings" for="rating">RATING:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <input class="inputBoxAddMovie" type="text" class="form-control" id="rating" placeholder="Enter movie's rating" maxlength="3" name="rating" required>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please enter the movie's rating.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="form-group">
+                            <label class="formHeadings" for="time">TIMES:</label>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <select class="custom-select inputBoxAddMovieTimes" multiple required>
+                                        <option value="">Control click to choose multiple times</option>
+                                        <option value="13:00">13:00</option>
+                                        <option value="13:05">13:05</option>
+                                        <option value="13:10">13:10</option>
+                                        <option value="13:15">13:15</option>
+                                        <option value="13:20">13:20</option>
+                                        <option value="13:25">13:25</option>
+                                        <option value="13:30">13:30</option>
+                                        <option value="13:35">13:35</option>
+                                        <option value="13:40">13:40</option>
+                                        <option value="13:45">13:45</option>
+                                        <option value="13:50">13:50</option>
+                                        <option value="13:55">13:55</option>
+                                        <option value="14:00">14:00</option>
+                                        <option value="14:05">14:05</option>
+                                        <option value="14:10">14:10</option>
+                                        <option value="14:15">14:15</option>
+                                        <option value="14:20">14:20</option>
+                                        <option value="14:25">14:25</option>
+                                        <option value="14:30">14:30</option>
+                                        <option value="14:35">14:35</option>
+                                        <option value="14:40">14:40</option>
+                                        <option value="14:45">14:45</option>
+                                        <option value="14:50">14:50</option>
+                                        <option value="14:55">14:55</option>
+                                        <option value="15:00">15:00</option>
+                                        <option value="15:05">15:05</option>
+                                        <option value="15:10">15:10</option>
+                                        <option value="15:15">15:15</option>
+                                        <option value="15:20">15:20</option>
+                                        <option value="15:25">15:25</option>
+                                        <option value="15:30">15:30</option>
+                                        <option value="15:35">15:35</option>
+                                        <option value="15:40">15:40</option>
+                                        <option value="15:45">15:45</option>
+                                        <option value="15:50">15:50</option>
+                                        <option value="15:55">15:55</option>
+                                        <option value="16:00">16:00</option>
+                                        <option value="16:05">16:05</option>
+                                        <option value="16:10">16:10</option>
+                                        <option value="16:15">16:15</option>
+                                        <option value="16:20">16:20</option>
+                                        <option value="16:25">16:25</option>
+                                        <option value="16:30">16:30</option>
+                                        <option value="16:35">16:35</option>
+                                        <option value="16:40">16:40</option>
+                                        <option value="16:45">16:45</option>
+                                        <option value="16:50">16:50</option>
+                                        <option value="16:55">16:55</option>
+                                        <option value="17:00">17:00</option>
+                                        <option value="17:05">17:05</option>
+                                        <option value="17:10">17:10</option>
+                                        <option value="17:15">17:15</option>
+                                        <option value="17:20">17:20</option>
+                                        <option value="17:25">17:25</option>
+                                        <option value="17:30">17:30</option>
+                                        <option value="17:35">17:35</option>
+                                        <option value="17:40">17:40</option>
+                                        <option value="17:45">17:45</option>
+                                        <option value="17:50">17:50</option>
+                                        <option value="17:55">17:55</option>
+                                        <option value="18:00">18:00</option>
+                                        <option value="18:05">18:05</option>
+                                        <option value="18:10">18:10</option>
+                                        <option value="18:15">18:15</option>
+                                        <option value="18:20">18:20</option>
+                                        <option value="18:25">18:25</option>
+                                        <option value="18:30">18:30</option>
+                                        <option value="18:35">18:35</option>
+                                        <option value="18:40">18:40</option>
+                                        <option value="18:45">18:45</option>
+                                        <option value="18:50">18:50</option>
+                                        <option value="18:55">18:55</option>
+                                        <option value="19:00">19:00</option>
+                                        <option value="19:05">19:05</option>
+                                        <option value="19:10">19:10</option>
+                                        <option value="19:15">19:15</option>
+                                        <option value="19:20">19:20</option>
+                                        <option value="19:25">19:25</option>
+                                        <option value="19:30">19:30</option>
+                                        <option value="19:35">19:35</option>
+                                        <option value="19:40">19:40</option>
+                                        <option value="19:45">19:45</option>
+                                        <option value="19:50">19:50</option>
+                                        <option value="19:55">19:55</option>
+                                        <option value="20:00">20:00</option>
+                                        <option value="20:05">20:05</option>
+                                        <option value="20:05">20:10</option>
+                                        <option value="20:15">20:15</option>
+                                        <option value="20:20">20:20</option>
+                                        <option value="20:25">20:25</option>
+                                        <option value="20:30">20:30</option>
+                                        <option value="20:35">20:35</option>
+                                        <option value="20:40">20:40</option>
+                                        <option value="20:45">20:45</option>
+                                        <option value="20:50">20:50</option>
+                                        <option value="20:55">20:55</option>
+                                        <option value="21:00">21:00</option>
+                                        <option value="21:05">21:05</option>
+                                        <option value="21:10">21:10</option>
+                                        <option value="21:15">21:15</option>
+                                        <option value="21:20">21:20</option>
+                                        <option value="21:25">21:25</option>
+                                        <option value="21:30">21:30</option>
+                                        <option value="21:35">21:35</option>
+                                        <option value="21:40">21:40</option>
+                                        <option value="21:45">21:45</option>
+                                    </select>
+                                    <div class="valid-feedback">Valid.</div>
+                                    <div class="invalid-feedback">Please select movie times.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-10">
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="home.html"><button type="submit" class="createUserButton">ADD MOVIE</button></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container topGap">
+    </div>
+    <div class="container-fluid footerBackground">
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-3 col-md-2 col-sm-0">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">Contact Us</h4>
+                    <p class="footerDes"><span class="footerDesLink">Get in touch</span><br><span class="footerDesLink"> FAQ's</span><br> <a class="linkColour" href="https://www.facebook.com"><i class="fa fa-facebook facebookIcon"></i></a> <a class="linkColour" href="https://twitter.com"><i class="fa fa-twitter twitterIcon"></i></a> <a class="linkColour" href="https://www.youtube.com"><i class="fa fa-youtube-play youtubeIcon"></i></a></p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">About 4K Cinema</h4>
+                    <p class="footerDes"><span class="footerDesLink">About Us</span><br><span class="footerDesLink">4K Experience</span><br> <span class="footerDesLink">Kids Party</span><br> <span class="footerDesLink">Gift Cards</span><br> <span class="footerDesLink">Competitions</span><br></p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4">
+                    <h4 class="footerTitle">Legal</h4>
+                    <p class="footerDes"><span class="footerDesLink">Terms and Conditions</span><br><span class="footerDesLink">Privacy Policy</span><br> <span class="footerDesLink">Accessibility</span><br></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="container-fluid footerDarkerBackground">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-5">
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img class="logoFooter" src="images/Logo.png">
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="javascript.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
